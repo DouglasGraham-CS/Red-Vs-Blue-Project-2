@@ -12,7 +12,7 @@ First, as Blue Team we configured watcher alerts in Kibana ahead of time so that
 
 ## Red Team
 
-The goal of the Red Team was to gain root access to Target 1 using the Kali VM and to "capture flags" along the way. To do this, the username and password of the account with sudo privileges granted to python needed to be discovered, and then the escalation to root could occur by exploiting a python vulnerability which required having the aforementioned sudo privileges for python. This part relates to the "Red Team_ Summary of Operations" document found in the [Reports directory](Reports).
+The goal of the Red Team was to gain root access to Target 1 using the Kali VM and to "capture flags" along the way. To do this, the username and password of the account with sudo privileges granted to python needed to be discovered, and then the escalation to root could occur by exploiting a python vulnerability which required having the aforementioned sudo privileges for python. This part relates to the [Red Team_ Summary of Operations](/Reports/Red_Team_Summary_of_Operations.docx) document found in the [Reports directory](Reports).
 
 This was done over 8 steps.
 
@@ -46,7 +46,7 @@ Yesterday, your team confirmed that newly created alerts are working. Today, you
 
 You are to report back all your findings to both the SOC manager and the Engineering Manager with appropriate analysis."
 
-This part relates to the "Network Analysis" document found in the [Reports directory](Reports).
+This part relates to the [Network Analysis](/Reports/Network_Analysis.docx) document found in the [Reports directory](Reports).
 
 We needed to run a systemctl command to start a sniff on our Kali VM which would start a tcpreplay over Kali's eth0 interface, which we could then capture using Wireshark. We then used the captured data to solve 3 issues in "Time thieves" who were spotted watching YouTube during work hours, at least one Windows host infected with a virus, and illegal downloads which were occuring. These 3 issues are divided into the 3 sections which are covered in the report.
 
