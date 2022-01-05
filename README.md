@@ -48,5 +48,5 @@ You are to report back all your findings to both the SOC manager and the Enginee
 
 This part relates to the [Network Analysis](/Reports/Network_Analysis.docx) document found in the [Reports directory](Reports).
 
-We needed to run a systemctl command to start a sniff on our Kali VM which would start a tcpreplay over Kali's eth0 interface which we could then capture using Wireshark. We then used the captured data to solve 3 issues in "Time thieves" who were spotted watching YouTube during work hours, at least one Windows host infected with a virus, and illegal downloads which were occuring. These 3 issues are divided into the 3 sections which are covered in the report.
+We needed to run a systemctl command to start a sniff on our Kali VM which would start a tcpreplay over Kali's eth0 interface which we could then capture using Wireshark. We then used the captured data to solve the 3 following issues: "Time thieves" who were spotted watching YouTube during work hours, at least one Windows host infected with a virus, and illegal downloads which were occuring. These 3 issues are divided into the 3 sections which are covered in the report.
 
