@@ -34,11 +34,11 @@ Step 8: Escalate to root by exploiting the python vulnerability.
 
 ## Blue Team Part 2
 
-After conducting the attack, we needed to find evidence of the attacks in Kibana. We used what we found to tailor new watcher alerts based on signatures that we deemed important. We also came up with ways to harden the system against it having weak passwords, privilege escalation via Python, a MySQL data breach, and the vulnerabilities presented by WordPress. Details can be foun in the [Project Presentation](/Project-Presentation/Project_Presentation.pdf).
+After conducting the attack, we needed to find evidence of the attacks in Kibana. We used what we found to tailor new watcher alerts based on signatures that we deemed important. We also came up with ways to harden the system against it having weak passwords, privilege escalation via Python, a MySQL data breach, and the vulnerabilities presented by WordPress. Details can be found in the [Project Presentation](/Project-Presentation/Project_Presentation.pdf).
 
 ## Wireshark Activity
 
-In this part, we were tasked to act as if the following scenerio was playing out
+In this part, we were tasked to act as if the following scenario was playing out
 
 "You are working as a Security Engineer for X-CORP, supporting the SOC infrastructure. The SOC analysts have noticed some discrepancies with alerting in the Kibana system and the manager has asked the Security Engineering team to investigate.
 
@@ -48,5 +48,5 @@ You are to report back all your findings to both the SOC manager and the Enginee
 
 This part relates to the [Network Analysis](/Reports/Network_Analysis.docx) document found in the [Reports directory](Reports).
 
-We needed to run a systemctl command to start a sniff on our Kali VM which would start a tcpreplay over Kali's eth0 interface which we could then capture using Wireshark. We then used the captured data to solve the 3 following issues: "Time thieves" who were spotted watching YouTube during work hours, at least one Windows host infected with a virus, and illegal downloads which were occuring. These 3 issues are divided into the 3 sections which are covered in the report.
+We needed to run a systemctl command to start a sniff on our Kali VM which would start a tcpreplay over Kali's eth0 interface which we could then capture using Wireshark. We then used the captured data to solve the 3 following issues: "Time thieves" who were spotted watching YouTube during work hours, at least one Windows host infected with a virus, and illegal downloads which were occurring. These 3 issues are divided into the 3 sections which are covered in the report.
 
