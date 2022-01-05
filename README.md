@@ -34,7 +34,7 @@ Step 8: Escalate to root by exploiting the python vulnerability.
 
 ## Blue Team Part 2
 
-
+After conducting the attack, we needed to find evidence of the attacks in Kibana. We used what we found to tailor new watcher alerts based on signatures that we deemed important. We also came up with ways to harden the system against it having weak passwords, privilege escalation via Python, a MySQL data breach, and the vulnerabilities presented by WordPress. Details can be foun in the [Project Presentation](/Project-Presentation/Project_Presentation.pdf).
 
 ## Wireshark Activity
 
