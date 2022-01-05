@@ -8,7 +8,7 @@ This document will cover a quick overview of the project by covering the goals o
 
 ## Blue Team Part 1
 
-First, as Blue Team we configured watcher alerts in Kibana ahead of time so that we can see how they act as the attack is happening. These alerts could also be viewed in the Discovery page by creating a related index pattern for the Discovery page to pull from so that we could view the network traffic associated with them. This part relates to the "Blue Team_ Summary of Operations" document found in the [Reports directory](Reports).
+First, as Blue Team we configured watcher alerts in Kibana ahead of time so that we can see how they act as the attack is happening. These alerts could also be viewed in the Discovery page by creating a related index pattern for the Discovery page to pull from so that we could view the network traffic associated with them. This part relates to the [Blue Team Summary of Operations](/Reports/Blue_Team_Summary_of_Operations) document found in the [Reports directory](Reports).
 
 ## Red Team
 
